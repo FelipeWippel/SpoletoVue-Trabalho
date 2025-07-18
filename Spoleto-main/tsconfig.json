@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    },
+    {
+      "path": "./nightwatch/tsconfig.json"
+    }
+  ],
+    "compilerOptions": {
+      "types": ["node"]
+    },
+    "vueCompilerOptions": {
+      "globalTypesPath": "./src/types/vue-global.d.ts"
+    }
+}
